@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5DBDC883289AFD4000B4E20F /* MemesRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBDC882289AFD4000B4E20F /* MemesRequest.swift */; };
+		A4F43815289C856F00BBE7BC /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F43814289C856F00BBE7BC /* DetailViewController.swift */; };
+		A4F43818289C8E6500BBE7BC /* JokesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F43817289C8E6500BBE7BC /* JokesTableViewCell.swift */; };
+		A4F4381A289C8EA500BBE7BC /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F43819289C8EA500BBE7BC /* Extensions.swift */; };
+		A4FA5A04289ACD0500FC6795 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FA5A03289ACD0500FC6795 /* AppDelegate.swift */; };
+		A4FA5A06289ACD0500FC6795 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FA5A05289ACD0500FC6795 /* SceneDelegate.swift */; };
+		A4FA5A08289ACD0500FC6795 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FA5A07289ACD0500FC6795 /* ViewController.swift */; };
+		A4FA5A0B289ACD0500FC6795 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4FA5A09289ACD0500FC6795 /* Main.storyboard */; };
+		A4FA5A0D289ACD0600FC6795 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4FA5A0C289ACD0600FC6795 /* Assets.xcassets */; };
+		A4FA5A10289ACD0600FC6795 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4FA5A0E289ACD0600FC6795 /* LaunchScreen.storyboard */; };
+		A4FA5A1B289ADC2800FC6795 /* JokeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FA5A1A289ADC2800FC6795 /* JokeData.swift */; };
+		A4FA5A1D289AE39800FC6795 /* JokeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FA5A1C289AE39800FC6795 /* JokeViewModel.swift */; };
+		B3D26595E442B59A1D9B3297 /* Pods_TicimaxProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19BBE22EAAF9C5E47E7E7B0A /* Pods_TicimaxProject.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0261D8747841CCB066B42DB2 /* Pods-TicimaxProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TicimaxProject.release.xcconfig"; path = "Target Support Files/Pods-TicimaxProject/Pods-TicimaxProject.release.xcconfig"; sourceTree = "<group>"; };
+		19BBE22EAAF9C5E47E7E7B0A /* Pods_TicimaxProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TicimaxProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DBDC882289AFD4000B4E20F /* MemesRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemesRequest.swift; sourceTree = "<group>"; };
+		8BDFEDC969263EF944271C76 /* Pods-TicimaxProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TicimaxProject.debug.xcconfig"; path = "Target Support Files/Pods-TicimaxProject/Pods-TicimaxProject.debug.xcconfig"; sourceTree = "<group>"; };
+		A4F43814289C856F00BBE7BC /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		A4F43817289C8E6500BBE7BC /* JokesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokesTableViewCell.swift; sourceTree = "<group>"; };
+		A4F43819289C8EA500BBE7BC /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		A4FA5A00289ACD0500FC6795 /* TicimaxProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TicimaxProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4FA5A03289ACD0500FC6795 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A4FA5A05289ACD0500FC6795 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A4FA5A07289ACD0500FC6795 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A4FA5A0A289ACD0500FC6795 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A4FA5A0C289ACD0600FC6795 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A4FA5A0F289ACD0600FC6795 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A4FA5A11289ACD0600FC6795 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4FA5A1A289ADC2800FC6795 /* JokeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeData.swift; sourceTree = "<group>"; };
+		A4FA5A1C289AE39800FC6795 /* JokeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4FA59FD289ACD0500FC6795 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3D26595E442B59A1D9B3297 /* Pods_TicimaxProject.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5934A2B99C52D25EF0F06BA7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				19BBE22EAAF9C5E47E7E7B0A /* Pods_TicimaxProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5DBDC880289AFD1300B4E20F /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				5DBDC882289AFD4000B4E20F /* MemesRequest.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		A4745D73289D03B500E59157 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A4F43819289C8EA500BBE7BC /* Extensions.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		A4F43816289C8BD900BBE7BC /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				A4F43817289C8E6500BBE7BC /* JokesTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		A4FA59F7289ACD0500FC6795 = {
+			isa = PBXGroup;
+			children = (
+				A4FA5A02289ACD0500FC6795 /* TicimaxProject */,
+				A4FA5A01289ACD0500FC6795 /* Products */,
+				D5091AD7D5F6E9498B496F0D /* Pods */,
+				5934A2B99C52D25EF0F06BA7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A4FA5A01289ACD0500FC6795 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4FA5A00289ACD0500FC6795 /* TicimaxProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4FA5A02289ACD0500FC6795 /* TicimaxProject */ = {
+			isa = PBXGroup;
+			children = (
+				A4745D73289D03B500E59157 /* Extension */,
+				A4F43816289C8BD900BBE7BC /* Cell */,
+				5DBDC880289AFD1300B4E20F /* Network */,
+				A4FA5A19289ADC0E00FC6795 /* View */,
+				A4FA5A18289ADBE800FC6795 /* ViewModel */,
+				A4FA5A17289ADBE300FC6795 /* Model */,
+				A4FA5A03289ACD0500FC6795 /* AppDelegate.swift */,
+				A4FA5A05289ACD0500FC6795 /* SceneDelegate.swift */,
+				A4FA5A09289ACD0500FC6795 /* Main.storyboard */,
+				A4FA5A0C289ACD0600FC6795 /* Assets.xcassets */,
+				A4FA5A0E289ACD0600FC6795 /* LaunchScreen.storyboard */,
+				A4FA5A11289ACD0600FC6795 /* Info.plist */,
+			);
+			path = TicimaxProject;
+			sourceTree = "<group>";
+		};
+		A4FA5A17289ADBE300FC6795 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A4FA5A1A289ADC2800FC6795 /* JokeData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A4FA5A18289ADBE800FC6795 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A4FA5A1C289AE39800FC6795 /* JokeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A4FA5A19289ADC0E00FC6795 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A4FA5A07289ACD0500FC6795 /* ViewController.swift */,
+				A4F43814289C856F00BBE7BC /* DetailViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D5091AD7D5F6E9498B496F0D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8BDFEDC969263EF944271C76 /* Pods-TicimaxProject.debug.xcconfig */,
+				0261D8747841CCB066B42DB2 /* Pods-TicimaxProject.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4FA59FF289ACD0500FC6795 /* TicimaxProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4FA5A14289ACD0600FC6795 /* Build configuration list for PBXNativeTarget "TicimaxProject" */;
+			buildPhases = (
+				BF555DA5CC7A6A2E8D3662A8 /* [CP] Check Pods Manifest.lock */,
+				A4FA59FC289ACD0500FC6795 /* Sources */,
+				A4FA59FD289ACD0500FC6795 /* Frameworks */,
+				A4FA59FE289ACD0500FC6795 /* Resources */,
+				CC75FD0B7B50E24C090C4206 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TicimaxProject;
+			productName = TicimaxProject;
+			productReference = A4FA5A00289ACD0500FC6795 /* TicimaxProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4FA59F8289ACD0500FC6795 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					A4FA59FF289ACD0500FC6795 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = A4FA59FB289ACD0500FC6795 /* Build configuration list for PBXProject "TicimaxProject" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4FA59F7289ACD0500FC6795;
+			productRefGroup = A4FA5A01289ACD0500FC6795 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4FA59FF289ACD0500FC6795 /* TicimaxProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4FA59FE289ACD0500FC6795 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4FA5A10289ACD0600FC6795 /* LaunchScreen.storyboard in Resources */,
+				A4FA5A0D289ACD0600FC6795 /* Assets.xcassets in Resources */,
+				A4FA5A0B289ACD0500FC6795 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BF555DA5CC7A6A2E8D3662A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TicimaxProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC75FD0B7B50E24C090C4206 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TicimaxProject/Pods-TicimaxProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TicimaxProject/Pods-TicimaxProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TicimaxProject/Pods-TicimaxProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4FA59FC289ACD0500FC6795 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4FA5A1D289AE39800FC6795 /* JokeViewModel.swift in Sources */,
+				A4FA5A08289ACD0500FC6795 /* ViewController.swift in Sources */,
+				A4FA5A04289ACD0500FC6795 /* AppDelegate.swift in Sources */,
+				A4FA5A06289ACD0500FC6795 /* SceneDelegate.swift in Sources */,
+				A4FA5A1B289ADC2800FC6795 /* JokeData.swift in Sources */,
+				A4F4381A289C8EA500BBE7BC /* Extensions.swift in Sources */,
+				A4F43818289C8E6500BBE7BC /* JokesTableViewCell.swift in Sources */,
+				5DBDC883289AFD4000B4E20F /* MemesRequest.swift in Sources */,
+				A4F43815289C856F00BBE7BC /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A4FA5A09289ACD0500FC6795 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4FA5A0A289ACD0500FC6795 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A4FA5A0E289ACD0600FC6795 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4FA5A0F289ACD0600FC6795 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A4FA5A12289ACD0600FC6795 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A4FA5A13289ACD0600FC6795 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4FA5A15289ACD0600FC6795 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BDFEDC969263EF944271C76 /* Pods-TicimaxProject.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 864N8V85P8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TicimaxProject/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hasanbasri.TicimaxProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A4FA5A16289ACD0600FC6795 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0261D8747841CCB066B42DB2 /* Pods-TicimaxProject.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 864N8V85P8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TicimaxProject/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hasanbasri.TicimaxProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4FA59FB289ACD0500FC6795 /* Build configuration list for PBXProject "TicimaxProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4FA5A12289ACD0600FC6795 /* Debug */,
+				A4FA5A13289ACD0600FC6795 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4FA5A14289ACD0600FC6795 /* Build configuration list for PBXNativeTarget "TicimaxProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4FA5A15289ACD0600FC6795 /* Debug */,
+				A4FA5A16289ACD0600FC6795 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4FA59F8289ACD0500FC6795 /* Project object */;
+}
